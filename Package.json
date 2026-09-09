@@ -1,0 +1,21 @@
+{
+  "name": "aura-os",
+  "version": "1.0.0",
+  "description": "IA CEO Autônoma que pensa, clona e vende 24h",
+  "scripts": {
+    "dev": "next dev",
+    "start": "tsx aura-core/brain.ts",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "latest",
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.15.0",
+    "typescript": "^5.0.0"
+  }
+}
